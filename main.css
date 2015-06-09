@@ -1,0 +1,56 @@
+.headingimage{
+	background-image: url('http://kevinstraveljournal.com/wp-content/uploads/2012/02/Club-Clipart.jpg');
+	height:700px;
+}
+.heading h3{
+	text-align: center;
+	color:#FFFFFF;
+	font-size: 40px
+		}
+.heading p{
+	text-align: center;
+	color:#FFFFFF;
+	font-size: 24px
+			}
+.heading{
+	background-color: #FFCC66;
+}
+.whydothis h3{
+font-size: 25px;
+}
+
+.whydothis p{
+	text-align: justify;
+	height: 80px;
+	font-size: 20px;
+	padding-top: 25px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+    }
+
+.visited h3{
+font-size: 25px;
+}
+
+ .visited ol{
+	font-size: 20px;
+	padding-top: 25px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+    }
+
+  .Tovisit ol{
+	font-size: 20px;
+	padding-top: 25px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+    }
+
+  .Tovisit h3{
+font-size: 25px;
+}
+
+ .Tovisit p{
+font-size: 20px;
+}
+
