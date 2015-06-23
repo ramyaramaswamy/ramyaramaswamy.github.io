@@ -1,0 +1,169 @@
+.Jumbotron{
+	background: url("BackgroundRanku.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+	}
+
+.As_seen_in{
+	background-color: #22768d;
+	height: 250px;
+	color:white;
+	clear: right;
+	clear: left;
+}
+
+.As_seen_in h3{
+	text-align: center;
+	font: bold;
+	font-weight: 20px;
+}
+
+.content1{
+	text-align: center;
+	color: white;
+	padding-top: 30px;
+	font-family: "myriad-pro", sans-serif;
+}
+
+.content2{
+	color: white;
+	text-align: center;
+	width: 50%;
+	margin: auto;
+	padding-top: 10px;
+	font-weight: 5px;
+	font-family: "myriad-pro", sans-serif;
+}
+
+button{
+	box-shadow: none;
+	background-color: #6acd7a;
+	height: 60px;
+	width: 120px;
+	color:white;
+	font-variant: small-caps;
+	font-family: "myriad-pro", sans-serif;
+	font-size: 15px;
+	border-radius: 25px;
+	border: none;
+}
+
+button:hover{
+	cursor:pointer;
+	background-color: #009933;
+	position: relative;
+}
+
+.buttonstyling{
+	margin-left:700px;
+	margin-top: 100px;
+	opacity: 0.8;
+}
+
+.bar{
+	background-color: #e3541a;
+	height:60px;
+}
+
+.Header{
+	height:60px;
+}
+
+.Header li{
+	display: inline;
+	margin-left: 40px;
+	font-variant: small-caps;
+}
+
+.Rightnavbar{
+float:right;
+margin-right: 200px;
+color: #8d8b90;
+	}
+
+.Header img{
+	margin-left: 180px;
+	margin-top: 10px;
+}
+
+.boxes li{
+	display: inline-block;
+	margin-left: 20px;
+	background-color: #2789a2;
+	color:black;
+	width: 200px;
+	padding: 20px;
+	color: white;
+	height: 50px;
+
+}
+
+.boxes ul{
+	width: 1100px;
+	margin: auto;
+	text-align: center;
+	font-size: 25px;
+}
+
+.section2 h4{
+	text-align: center;
+	color: #8d8b90;
+	font-size: 30px;
+	font-family: "myriad-pro", sans-serif;
+	font-style: normal;
+}
+
+.image{
+	display:block;
+	height: 400px;
+	width: 650px;
+	margin-left: 150px;
+}
+
+.contentinside{
+	display: block;
+}
+
+.midpart{
+	display: inline-block;
+	}
+
+.part1{
+	float: left;
+	width: 60%
+}
+.part2{
+	float: right;
+	width: 30%;
+	margin-top: 100px;
+	margin-right: 80px;
+	}
+
+.part2 h3{
+	font-size: 25px;
+	font-style: bold;
+	color: black;
+	font-family: "myriad-pro", sans-serif;
+}
+
+.part2 p{
+	font-family: "myriad-pro", sans-serif;
+    font-style: normal;
+    color:#8d8b90 ;
+    font-size: 16px;
+}
+
+
+.section3{
+  background-color: #f9f9f9;
+  height: 300px;
+}
+
+
+
+
+
+
+
+

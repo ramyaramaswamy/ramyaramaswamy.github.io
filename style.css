@@ -36,6 +36,7 @@
 }
 
 button{
+	display: inline-block;
 	background-color: white;
 	border:none;
 	padding: 20px;
@@ -107,23 +108,23 @@ text-align: center;
 }
 
 input[placeholder="Name"] {
-    display: block;
-  margin: 0;
-  width: 20%;
-  font-family: sans-serif;
-  font-size: 20px;
-  box-shadow: none;
-  border-radius: none;
+display: inline-block;
+margin:0;
+width: 20%;
+font-family: sans-serif;
+font-size: 20px;
+box-shadow: none;
+border-radius:none;
 }
 
 input[placeholder="Email"] {
-  display: block;
-  margin: 0;
-  width: 20%;
-  font-family: sans-serif;
-  font-size: 20px;
-  box-shadow: none;
-  border-radius: none;
+display: inline-block;
+margin:0;
+width: 20%;
+font-family: sans-serif;
+font-size: 20px;
+box-shadow: none;
+border-radius:none;
 }
 
 .icons{
