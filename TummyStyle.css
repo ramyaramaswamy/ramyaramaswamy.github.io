@@ -1,11 +1,17 @@
+#Wrap{
+	width: 1300px; 
+	margin: 0 auto; 
+}
+
 
 .Header{
 	background: url("Clock.jpg");
 	background-repeat: no-repeat;
-	height: 700px;
+	height: 750px;
 	background-position: center;
 	background-size: cover;
 	opacity: 0.7;
+
 	
 	}
 
@@ -15,11 +21,11 @@
 
 .signup{
 	background-color: #FF6600;
-	height:60%;
+	height:50%;
 	width:30%;
 	float:right;
-	margin-top:130px;
-	margin-right: 550px;
+	margin-top:180px;
+	margin-right: 450px;
 	border-radius: 30px;
 	border: #E65C00 2px solid;
 	}
@@ -30,8 +36,7 @@
 	font-size: 30px;
 	font-variant: small-caps;
 	letter-spacing: 2px;
-	padding-top: 20px;
-}
+	}
 
 .signup p{
 	text-align: center;
@@ -65,17 +70,36 @@
   background-color: white;
   color: black;
   font-variant: small-caps;
-  margin-top: 50px;
+  margin-top: 30px;
   margin-left: 100px;
   border-radius: 5px;
 }
 
 .section2{
-	height: 70px;
-	background-color: #FFFFCC;
+	height: 50px;
+	background-color: white;
 }
 
 .section3{
-	height: 150px;
-	background-color: white;
+	height: 450px;
+	width: 30%;
+	background-color: #FFFFCC;
+	display: inline-block;
+	margin-left: 30px;
+}
+
+.section4{
+	height: 450px;
+	width: 30%;
+	background-color: #FFFFCC;
+	display: inline-block;
+	margin-left: 30px;
+}
+
+.section5{
+	height: 450px;
+	width: 30%;
+	background-color: #FFFFCC;
+	display: inline-block;
+	margin-left: 30px;
 }
