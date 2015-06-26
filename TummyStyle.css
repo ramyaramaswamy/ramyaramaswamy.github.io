@@ -3,53 +3,67 @@
 	margin: 0 auto; 
 }
 
+.seperator{
+	height: 50px;
+	background-color: white;
+}
 
-.Header{
-	background: url("Clock.jpg");
-	background-repeat: no-repeat;
-	height: 750px;
-	background-position: center;
-	background-size: cover;
+.Topheader{
+	background-color: black;
+	height: 100px;
+	text-align: left;
+	color:white;
+	font-size: 25px;
+	letter-spacing: 3px;
+	font-variant: small-caps;
 	opacity: 0.7;
-
-	
+	padding-top: 5px;
+	padding-left: 5px;
 	}
 
-.image{
-	width: 100%;
+.step{
+	height:30px;
+	background-color: white;
+	color: black;
+	font-variant: small-caps;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	}
+
+.box{
+	height: 400px;
 }
 
 .signup{
-	background-color: #FF6600;
+	background-color: white;
 	height:50%;
 	width:30%;
 	float:right;
-	margin-top:180px;
+	margin-top:60px;
 	margin-right: 450px;
-	border-radius: 30px;
-	border: #E65C00 2px solid;
+	border: #A3A3A3 2px solid;
+	border-radius: 20px;
 	}
 
-.signup h2{
-	color:white;
-	text-align: center;
-	font-size: 30px;
-	font-variant: small-caps;
-	letter-spacing: 2px;
+.signupheader{
+	height: 35px;
+	background-color:#FF6600;
+	opacity: 0.7;
+	border-top-left-radius: 1em;
+	border-top-right-radius: 1em;
 	}
 
 .signup p{
 	text-align: center;
-	font-size: 20px;
-	color:white;
-	padding-top: 30px;
+	font-size: 30px;
+	color:black;
+	padding-top: 10px;
 }
 
 .input{
-	margin-left: 85px;
-	margin-top: 50px;
-	padding-top: 10px;
-}
+	margin-left: 55px;
+	}
 
 .button {
   height: 44px;
@@ -57,49 +71,64 @@
 }
 
 #email {
-  width: 80%;
+  width: 60%;
   background: #FDFCFB;
   color: #737373;
   letter-spacing: 1px;
   border-radius: 5px;
-  display: block;
   text-align: center;
+  border: grey 1px solid;
 }
 
 #submit{
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
   font-variant: small-caps;
-  margin-top: 30px;
-  margin-left: 100px;
-  border-radius: 5px;
-}
-
-.section2{
-	height: 50px;
-	background-color: white;
+  /*margin-top: 30px;
+  margin-left: 80px;
+  border-radius: 5px;*/
+  opacity: 0.7;
 }
 
 .section3{
-	height: 450px;
-	width: 30%;
-	background-color: #FFFFCC;
+	height: 250px;
+	width: 50%;
+	background-color: #FFA366;
+	display: block;
+	margin:auto;
+	border-radius: 20px;
+	}
+
+.circle1 {
+	width: 200px;
+	height: 200px;
+	background: #FF6600;
+	border-radius: 100px;
+	margin-top: 20px;
+	margin-left: 85px;
+	border: white 2px solid;
 	display: inline-block;
-	margin-left: 30px;
+	}
+
+.circle2 {
+	width: 200px;
+	height: 200px;
+	background: #FF6600;
+	border-radius: 100px;
+	margin-top: 10px;
+	margin-left: 85px;
+	border: white 2px solid;
+	display: inline-block;
+	}
+
+#meat{
+	background: url("meat.jpg");
 }
 
-.section4{
-	height: 450px;
-	width: 30%;
-	background-color: #FFFFCC;
-	display: inline-block;
-	margin-left: 30px;
+#veggies{
+	background: url("veggies.jpg");
 }
 
-.section5{
-	height: 450px;
-	width: 30%;
-	background-color: #FFFFCC;
-	display: inline-block;
-	margin-left: 30px;
+#Tortoise{
+	background: url("Tortoise.png")
 }
