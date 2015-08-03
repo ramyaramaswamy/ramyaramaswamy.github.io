@@ -1,0 +1,114 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(http://fonts.googleapis.com/css?family=Rosario);
+
+p h1 h2 h3 h4 {
+    line-height: 30px;
+}
+
+.Navbar{
+	height:100px;
+	background-color: white;
+}
+
+.Navbar ul{
+	float: right;
+}
+
+.Navbar li{
+	float: left;
+	width: auto;
+	padding-right: 20px;
+	padding-top: 25px;
+	font-family: Rosario;
+	color: #A35200;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.Navbar li a:hover{
+    background: #DB944D;
+    color: white;
+}
+
+.container{
+	width: 1024px;
+	margin: 0 auto;
+	}
+
+.main{
+	height: 520px;
+	background: url(mainpic.png) no-repeat top left;
+	background-size: cover;
+	text-align: center;
+	}
+
+.main h2{
+	padding-top: 15%;
+	font-size: 350%;
+	margin: 10px;
+	color: white;
+	text-shadow: 2px 2px 2px #000;
+}
+
+.main h4{
+	text-align: right;
+	font-size: 150%;
+	text-indent: -6000px;
+	color: white;
+	text-shadow: 2px 2px 2px #000;
+}
+
+.sectionbreak{
+	height: 30px;
+	background-color: white;
+}
+
+.Report{
+height: 200px;
+}
+
+
+.Report h2
+{
+	font-size: 170%;
+	font-family: Lobster;
+	margin-top: 20px;
+	color: #A35200; 
+	}
+
+.column1{
+	float: left;
+	width: 20%;
+	height: 120px;
+	background: linear-gradient( to right, #FFD119, white); 
+	text-align: center;
+	border-radius: 5%;
+	font-family: Rosario;
+	margin-top: 20px;
+
+	}
+
+.column2{
+	float: left;
+	width: 1%;
+	height: 120px;
+	background-color: white;
+	font-family: Rosario;
+	margin-top: 20px;
+}
+
+.column3{
+	float: left;
+	width: 79%;
+	height: 120px;
+	font-family: Rosario;
+	margin-top: 20px;
+	}
+
+.column1 li{
+	line-height: 40px;
+}
+
+
+
+
