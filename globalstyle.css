@@ -1,5 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Lobster);
-@import url(http://fonts.googleapis.com/css?family=Rosario);
+@import url(http://fonts.googleapis.com/css?family=Linden+Hill);
 
 p h1 h2 h3 h4 {
     line-height: 30px;
@@ -19,7 +19,7 @@ p h1 h2 h3 h4 {
 	width: auto;
 	padding-right: 20px;
 	padding-top: 25px;
-	font-family: Rosario;
+	font-family: Linden Hill;
 	color: #A35200;
 	font-weight: bold;
 	text-decoration: none;
@@ -63,8 +63,10 @@ p h1 h2 h3 h4 {
 	background-color: white;
 }
 
-.Report{
-height: 200px;
+
+.Report
+{
+	height: 200px; 
 }
 
 
@@ -76,39 +78,30 @@ height: 200px;
 	color: #A35200; 
 	}
 
-.column1{
-	float: left;
-	width: 20%;
-	height: 120px;
+.statsbar{
+	height: 25px;
+	width: 1024px;
+	margin: 0 auto;
 	background: linear-gradient( to right, #FFD119, white); 
-	text-align: center;
-	border-radius: 5%;
-	font-family: Rosario;
-	margin-top: 20px;
-
-	}
-
-.column2{
-	float: left;
-	width: 1%;
-	height: 120px;
-	background-color: white;
-	font-family: Rosario;
-	margin-top: 20px;
-}
-
-.column3{
-	float: left;
-	width: 79%;
-	height: 120px;
-	font-family: Rosario;
-	margin-top: 20px;
-	}
-
-.column1 li{
-	line-height: 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-top: 10px;
 }
 
 
+.statsbar ul{
+	float: left;
+}
 
+.statsbar li{
+	float: right;
+	padding-right: 70px;
+	padding-left: 10px;
+	font-weight: bold;
+	font-family: Linden Hill;
+}
 
+.Report p{
+font-family: museo sans;
+line-height: 20px;
+}
