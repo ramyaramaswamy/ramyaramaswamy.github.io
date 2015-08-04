@@ -5,9 +5,11 @@ p h1 h2 h3 h4 {
     line-height: 30px;
 }
 
+a {text-decoration: none; background-color: none; color:white;}
+
 .Navbar{
 	height:100px;
-	background-color: white;
+	background-color: #999999;
 }
 
 .Navbar ul{
@@ -20,18 +22,18 @@ p h1 h2 h3 h4 {
 	padding-right: 20px;
 	padding-top: 25px;
 	font-family: Linden Hill;
-	color: #A35200;
+	color: black;
 	font-weight: bold;
 	text-decoration: none;
 }
 
 .Navbar li a:hover{
-    background: #DB944D;
+    background: #333333;
     color: white;
 }
 
 .container{
-	width: 1024px;
+	width: 80%;
 	margin: 0 auto;
 	}
 
@@ -61,14 +63,64 @@ p h1 h2 h3 h4 {
 .sectionbreak{
 	height: 30px;
 	background-color: white;
+	clear: left;
 }
 
+.AboutAdventure{
+	height: 120px;
+	}
+
+.AboutAdventure h2
+{
+	font-size: 170%;
+	font-family: Lobster;
+	margin-top: 20px;
+	color: #A35200; 
+	}
+
+.AboutAdventure p{
+	font-family: museo sans;
+line-height: 20px;
+}
+}
+
+.Month{
+	height: 150px;
+}
+
+.Month h2
+{
+	font-size: 170%;
+	font-family: Lobster;
+	color: #A35200; 
+	}
+
+.Month ul{
+	float: left;
+	text-indent: 35px;
+	color: white;
+}
+
+.Month li{
+	float:right;
+	background-color: #CC6600;
+	border-radius: 20px;
+	height: 30px;
+	width: 100px;
+	margin: 35px;
+	color: white;
+	padding-top: 10px;
+}
+
+.Month li a:hover{
+    color: black;
+}
 
 .Report
 {
 	height: 200px; 
-}
-
+	clear: left;
+	}
 
 .Report h2
 {
@@ -80,7 +132,6 @@ p h1 h2 h3 h4 {
 
 .statsbar{
 	height: 25px;
-	width: 1024px;
 	margin: 0 auto;
 	background: linear-gradient( to right, #FFD119, white); 
 	margin-top: 10px;
